@@ -9,6 +9,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'  # Fetches submodules
 
     - name: Create build directory
       run: mkdir build
