@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/FindThreads.cmake
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googlemock/CMakeLists.txt
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googlemock/cmake/gmock.pc.in
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googlemock/cmake/gmock_main.pc.in

@@ -1,0 +1,14 @@
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/CMakeFiles/RUN_TESTS.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/CMakeFiles/INSTALL.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/CMakeFiles/ALL_BUILD.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/CMakeFiles/ZERO_CHECK.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googlemock/CMakeFiles/gmock.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googlemock/CMakeFiles/gmock_main.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googlemock/CMakeFiles/RUN_TESTS.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googlemock/CMakeFiles/INSTALL.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googlemock/CMakeFiles/ALL_BUILD.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/gtest.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/gtest_main.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/RUN_TESTS.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/INSTALL.dir
+E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/ALL_BUILD.dir
