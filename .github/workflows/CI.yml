@@ -4,18 +4,20 @@ on: [push, pull_request]
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Dependencies
-      run: sudo apt-get update && sudo apt-get install -y cmake g++ make
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Create build directory
+      run: mkdir build
 
     - name: Configure CMake
-      run: cmake -S . -B build
+      run: cmake -B build -S . -G "Visual Studio 16 2019" -A x64
 
     - name: Build
       run: cmake --build build --config Release
 
     - name: Run Tests
-      run: ./build/simulation_test
+      run: ./build/Release/simulation_test.exe
