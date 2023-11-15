@@ -14,7 +14,7 @@ jobs:
       run: mkdir build
 
     - name: Configure CMake
-      run: cmake -B build -S . -G "Visual Studio 16 2019" -A x64
+      run: cmake -B build -S .
 
     - name: Build
       run: cmake --build build --config Release
