@@ -1,0 +1,400 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 15/11/2023 10:04:56。
+      节点 1 上的项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\3.28.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\3.28.0-rc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\3.28.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.39
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/3.28.0-rc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 15/11/2023 10:04:58。
+      节点 1 上的项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\3.28.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\3.28.0-rc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\3.28.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.94
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/3.28.0-rc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:50 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-5as0tu"
+      binary: "E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-5as0tu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-5as0tu'
+        
+        Run Build Command(s): "E:/C++/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_f7ff7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 15/11/2023 10:05:00。
+        节点 1 上的项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-5as0tu\\cmTC_f7ff7.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f7ff7.dir\\Debug\\”。
+          正在创建目录“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-5as0tu\\Debug\\”。
+          正在创建目录“cmTC_f7ff7.dir\\Debug\\cmTC_f7ff7.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f7ff7.dir\\Debug\\cmTC_f7ff7.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f7ff7.dir\\Debug\\\\" /Fd"cmTC_f7ff7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Durham\\MISCADA\\Professional skill\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f7ff7.dir\\Debug\\\\" /Fd"cmTC_f7ff7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Durham\\MISCADA\\Professional skill\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-5as0tu\\Debug\\cmTC_f7ff7.exe" /INCREMENTAL /ILK:"cmTC_f7ff7.dir\\Debug\\cmTC_f7ff7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-5as0tu/Debug/cmTC_f7ff7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-5as0tu/Debug/cmTC_f7ff7.lib" /MACHINE:X64  /machine:x64 cmTC_f7ff7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f7ff7.vcxproj -> E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-5as0tu\\Debug\\cmTC_f7ff7.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f7ff7.dir\\Debug\\cmTC_f7ff7.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f7ff7.dir\\Debug\\cmTC_f7ff7.tlog\\cmTC_f7ff7.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-5as0tu\\cmTC_f7ff7.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.98
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:50 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-yadwcl"
+      binary: "E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-yadwcl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-yadwcl'
+        
+        Run Build Command(s): "E:/C++/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_98db9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 15/11/2023 10:05:01。
+        节点 1 上的项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-yadwcl\\cmTC_98db9.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_98db9.dir\\Debug\\”。
+          正在创建目录“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-yadwcl\\Debug\\”。
+          正在创建目录“cmTC_98db9.dir\\Debug\\cmTC_98db9.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_98db9.dir\\Debug\\cmTC_98db9.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98db9.dir\\Debug\\\\" /Fd"cmTC_98db9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Durham\\MISCADA\\Professional skill\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98db9.dir\\Debug\\\\" /Fd"cmTC_98db9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Durham\\MISCADA\\Professional skill\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-yadwcl\\Debug\\cmTC_98db9.exe" /INCREMENTAL /ILK:"cmTC_98db9.dir\\Debug\\cmTC_98db9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-yadwcl/Debug/cmTC_98db9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-yadwcl/Debug/cmTC_98db9.lib" /MACHINE:X64  /machine:x64 cmTC_98db9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_98db9.vcxproj -> E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-yadwcl\\Debug\\cmTC_98db9.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_98db9.dir\\Debug\\cmTC_98db9.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_98db9.dir\\Debug\\cmTC_98db9.tlog\\cmTC_98db9.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-yadwcl\\cmTC_98db9.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.93
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake/internal_utils.cmake:66 (find_package)"
+      - "CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-f3prq1"
+      binary: "E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-f3prq1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-f3prq1'
+        
+        Run Build Command(s): "E:/C++/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_3617f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 15/11/2023 10:05:09。
+        节点 1 上的项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-f3prq1\\cmTC_3617f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3617f.dir\\Debug\\”。
+          正在创建目录“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-f3prq1\\Debug\\”。
+          正在创建目录“cmTC_3617f.dir\\Debug\\cmTC_3617f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3617f.dir\\Debug\\cmTC_3617f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3617f.dir\\Debug\\\\" /Fd"cmTC_3617f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-f3prq1\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3617f.dir\\Debug\\\\" /Fd"cmTC_3617f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-f3prq1\\src.c"
+        E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-f3prq1\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-f3prq1\\cmTC_3617f.vcxproj]
+        已完成生成项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-f3prq1\\cmTC_3617f.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-f3prq1\\cmTC_3617f.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-f3prq1\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-f3prq1\\cmTC_3617f.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.59
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "cmake/internal_utils.cmake:66 (find_package)"
+      - "CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-n5g8vm"
+      binary: "E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-n5g8vm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-n5g8vm'
+        
+        Run Build Command(s): "E:/C++/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_aeb59.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 15/11/2023 10:05:10。
+        节点 1 上的项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-n5g8vm\\cmTC_aeb59.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_aeb59.dir\\Debug\\”。
+          正在创建目录“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-n5g8vm\\Debug\\”。
+          正在创建目录“cmTC_aeb59.dir\\Debug\\cmTC_aeb59.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_aeb59.dir\\Debug\\cmTC_aeb59.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aeb59.dir\\Debug\\\\" /Fd"cmTC_aeb59.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-n5g8vm\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aeb59.dir\\Debug\\\\" /Fd"cmTC_aeb59.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-n5g8vm\\CheckFunctionExists.c"
+        Link:
+          E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-n5g8vm\\Debug\\cmTC_aeb59.exe" /INCREMENTAL /ILK:"cmTC_aeb59.dir\\Debug\\cmTC_aeb59.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-n5g8vm/Debug/cmTC_aeb59.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-n5g8vm/Debug/cmTC_aeb59.lib" /MACHINE:X64  /machine:x64 cmTC_aeb59.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-n5g8vm\\cmTC_aeb59.vcxproj]
+        已完成生成项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-n5g8vm\\cmTC_aeb59.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-n5g8vm\\cmTC_aeb59.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-n5g8vm\\cmTC_aeb59.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.78
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/Durham/MISCADA/Professional skill/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "cmake/internal_utils.cmake:66 (find_package)"
+      - "CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-lejb79"
+      binary: "E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-lejb79"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-lejb79'
+        
+        Run Build Command(s): "E:/C++/Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_6e998.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 15/11/2023 10:05:11。
+        节点 1 上的项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-lejb79\\cmTC_6e998.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_6e998.dir\\Debug\\”。
+          正在创建目录“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-lejb79\\Debug\\”。
+          正在创建目录“cmTC_6e998.dir\\Debug\\cmTC_6e998.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_6e998.dir\\Debug\\cmTC_6e998.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e998.dir\\Debug\\\\" /Fd"cmTC_6e998.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-lejb79\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e998.dir\\Debug\\\\" /Fd"cmTC_6e998.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-lejb79\\CheckFunctionExists.c"
+        Link:
+          E:\\C++\\Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-lejb79\\Debug\\cmTC_6e998.exe" /INCREMENTAL /ILK:"cmTC_6e998.dir\\Debug\\cmTC_6e998.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-lejb79/Debug/cmTC_6e998.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Durham/MISCADA/Professional skill/GitHub/googletest/googletest/CMakeFiles/CMakeScratch/TryCompile-lejb79/Debug/cmTC_6e998.lib" /MACHINE:X64  /machine:x64 cmTC_6e998.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-lejb79\\cmTC_6e998.vcxproj]
+        已完成生成项目“E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-lejb79\\cmTC_6e998.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-lejb79\\cmTC_6e998.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\Durham\\MISCADA\\Professional skill\\GitHub\\googletest\\googletest\\CMakeFiles\\CMakeScratch\\TryCompile-lejb79\\cmTC_6e998.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.73
+        
+      exitCode: 1
+...
