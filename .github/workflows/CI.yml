@@ -1,25 +1,39 @@
-name: C++ CI
+# This workflow is to build and test our repository automatically
+name: AutoTest
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+    branches:
+      - 'main'
 
 jobs:
-  build-and-test:
-    runs-on: windows-latest
+  buildAndTest:
+    runs-on: ${{ matrix.os }}
 
+    strategy:
+      # Set fail-fast to false to ensure that feedback is delivered for all matrix combinations. Consider changing this to true when your workflow is stable.
+      fail-fast: false
+      
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+        build_type: [Release]
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      with:
-        submodules: 'recursive'  # Fetches submodules
+    # Checkout repository
+    - uses: actions/checkout@v4
 
-    - name: Create build directory
-      run: mkdir build
-
-    - name: Configure CMake
-      run: cmake -B build -S .
-
+    - name: Setup Cmake
+      uses: jwlawson/actions-setup-cmake@v1.13
+      
     - name: Build
-      run: cmake --build build --config Release
+      # Build your program with the given configuration. Note that --config is needed because the default Windows generator is a multi-config generator (Visual Studio generator).
+      run: |
+        cmake -S . -B build
+        cmake --build build
 
-    - name: Run Tests
-      run: ./build/Release/simulation_test.exe
+    - name: Run Test
+      run: |
+        cd build
+        ctest
